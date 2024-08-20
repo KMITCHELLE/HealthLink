@@ -37,7 +37,7 @@
     }
     
 
-    //import database
+    
     include("../connection.php");
     $userrow = $database->query("select * from patient where pemail='$useremail'");
     $userfetch=$userrow->fetch_assoc();
@@ -45,14 +45,12 @@
     $username=$userfetch["pname"];
 
 
-    //echo $userid;
-    //echo $username;
-
+  
 
     $sqlmain= "select appointment.appoid,schedule.scheduleid,schedule.title,doctor.docname,patient.pname,schedule.scheduledate,schedule.scheduletime,appointment.apponum,appointment.appodate from schedule inner join appointment on schedule.scheduleid=appointment.scheduleid inner join patient on patient.pid=appointment.pid inner join doctor on schedule.docid=doctor.docid  where  patient.pid=$userid ";
 
     if($_POST){
-        //print_r($_POST);
+      
         
 
 
@@ -140,7 +138,7 @@
                         <p class="heading-sub12" style="padding: 0;margin: 0;">
                             <?php 
 
-                        date_default_timezone_set('Asia/Kolkata');
+                        date_default_timezone_set('Africa/Kenya');
 
                         $today = date('Y-m-d');
                         echo $today;

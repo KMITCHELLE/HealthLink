@@ -1,15 +1,15 @@
 
 body{
     margin: 7%;
-    background-color: #F6F7FA;
+    background-color: #9fafe2;
 }
 
 
 
 .container{
     width: 45%;
-    background-color: white;
-    border: 1px solid rgb(235, 235, 235);
+    background-color: rgb(84, 102, 139);
+    border: 1px solid rgb(141, 100, 158);
     border-radius: 8px;
     margin: 0;
     padding: 0;

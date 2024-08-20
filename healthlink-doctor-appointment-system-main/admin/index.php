@@ -57,7 +57,7 @@
                                 </td>
                                 <td style="padding:0px;margin:0px;">
                                     <p class="profile-title">Administrator</p>
-                                    <p class="profile-subtitle">admin@edoc.com</p>
+                                    <p class="profile-subtitle">admin@healthlink.com</p>
                                 </td>
                             </tr>
                             <tr>
@@ -133,7 +133,7 @@
                                 </p>
                                 <p class="heading-sub12" style="padding: 0;margin: 0;">
                                     <?php 
-                                date_default_timezone_set('Asia/Kolkata');
+                                date_default_timezone_set('Africa/Kenya');
         
                                 $today = date('Y-m-d');
                                 echo $today;

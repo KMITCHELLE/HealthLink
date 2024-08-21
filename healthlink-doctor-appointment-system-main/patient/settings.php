@@ -270,7 +270,7 @@
             
            
             $dob=$row["pdob"];
-            $nic=$row['pnic'];
+           // $nic=$row['pnic'];
             $tele=$row['ptel'];
             echo '
             <div id="popup1" class="overlay">
@@ -279,7 +279,7 @@
                         <h2></h2>
                         <a class="close" href="settings.php">&times;</a>
                         <div class="content">
-                            eDoc Web App<br>
+                            HealthLink Web App<br>
                             
                         </div>
                         <div style="display: flex;justify-content: center;">
@@ -308,21 +308,7 @@
                                     <label for="Email" class="form-label">Email: </label>
                                 </td>
                             </tr>
-                            <tr>
-                                <td class="label-td" colspan="2">
-                                '.$email.'<br><br>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="label-td" colspan="2">
-                                    <label for="nic" class="form-label">NIC: </label>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="label-td" colspan="2">
-                                '.$nic.'<br><br>
-                                </td>
-                            </tr>
+
                             <tr>
                                 <td class="label-td" colspan="2">
                                     <label for="Tele" class="form-label">Telephone: </label>
@@ -382,7 +368,7 @@
             
             
             $address=$row["paddress"];
-            $nic=$row['pnic'];
+          //  $nic=$row['pnic'];
             $tele=$row['ptel'];
 
             $error_1=$_GET["error"];
@@ -442,16 +428,7 @@
                                         
                                     </tr>
                                     
-                                    <tr>
-                                        <td class="label-td" colspan="2">
-                                            <label for="nic" class="form-label">NIC: </label>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="label-td" colspan="2">
-                                            <input type="text" name="nic" class="input-text" placeholder="NIC Number" value="'.$nic.'" required><br>
-                                        </td>
-                                    </tr>
+                                   
                                     <tr>
                                         <td class="label-td" colspan="2">
                                             <label for="Tele" class="form-label">Telephone: </label>

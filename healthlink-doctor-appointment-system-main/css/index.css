@@ -1,9 +1,9 @@
 body{
-    background-image: url(../img/Wallpaper\ Fisioterapia.jpeg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 100%;
+    background-image: url(../img/Homepage.jpeg);
+    background-size: 800px cover;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-color: #7398be;
 }
 
 html, body {
@@ -25,7 +25,7 @@ table{
     
 }
 .heading-text{
-    color: white;
+    color: rgb(93, 183, 234);
     font-size: 42px;
     font-weight: 700;
     line-height: 63px;
@@ -45,13 +45,13 @@ table{
 
 
 .register-btn{
-    background-color: rgba(240, 248, 255, 0.589);
+    background-color: rgba(179, 213, 243, 0.589);
     color: #abb0bb;
 }
 
 
 .edoc-logo{
-    color: white;
+    color: rgb(14, 6, 6);
     font-weight: bolder;
     font-size: 20px;
     padding-left: 20px;
@@ -66,7 +66,7 @@ table{
 
 
 .nav-item{
-    color: rgba(255, 255, 255, 0.671);
+    color: rgba(131, 165, 193, 0.671);
     text-align: center;
     font-size: 15px;
     font-weight: 500;
@@ -74,7 +74,7 @@ table{
 }
 
 .nav-item:hover{
-    color: #f0f0f0;
+    color: #ddd8d8;
 
 }
 

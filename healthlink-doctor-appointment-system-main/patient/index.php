@@ -124,7 +124,7 @@
                                 </p>
                                 <p class="heading-sub12" style="padding: 0;margin: 0;">
                                     <?php 
-                                date_default_timezone_set('Asia/Kolkata');
+                                date_default_timezone_set('Africa/Nairobi');
         
                                 $today = date('Y-m-d');
                                 echo $today;
@@ -152,15 +152,15 @@
                     <table class="filter-container doctor-header patient-header" style="border: none;width:95%" border="0" >
                     <tr>
                         <td >
-                            <h3>Welcome!</h3>
+                            <h3>Discover Your HealthLink Advantage!</h3>
                             <h1><?php echo $username  ?>.</h1>
-                            <p>Haven't any idea about doctors? no problem let's jumping to 
+                            <p>Explore our
                                 <a href="doctors.php" class="non-style-link"><b>"All Doctors"</b></a> section or 
                                 <a href="schedule.php" class="non-style-link"><b>"Sessions"</b> </a><br>
-                                Track your past and future appointments history.<br>Also find out the expected arrival time of your doctor or medical consultant.<br><br>
+                                Track your past and future appointments history.<br>Find out exactly when your doctor will arrive or connect with a medical consultant right when you need them.<br><br>
                             </p>
                             
-                            <h3>Channel a Doctor Here</h3>
+                            <h3>At HealthLink, your well-being is our priority!</h3>
                             <form action="schedule.php" method="post" style="display: flex">
 
                                 <input type="search" name="search" class="input-text " placeholder="Search Doctor and We will Find The Session Available" list="doctors" style="width:45%;">&nbsp;&nbsp;

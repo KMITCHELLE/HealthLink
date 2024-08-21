@@ -23,7 +23,7 @@ $_SESSION["user"]="";
 $_SESSION["usertype"]="";
 
 // Set the new timezone
-date_default_timezone_set('Africa/Kenya');
+date_default_timezone_set('Africa/Nairobi');
 $date = date('Y-m-d');
 
 $_SESSION["date"]=$date;

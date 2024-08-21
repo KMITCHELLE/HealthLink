@@ -138,7 +138,7 @@
                         <p class="heading-sub12" style="padding: 0;margin: 0;">
                             <?php 
 
-                        date_default_timezone_set('Africa/Kenya');
+                        date_default_timezone_set('Africa/Nairobi');
 
                         $today = date('Y-m-d');
                         echo $today;

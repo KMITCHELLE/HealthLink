@@ -1,12 +1,12 @@
 
 body{
     margin: 2%;
-    background-color: #F6F7FA;
+    background-color: #5b99d2;
 }
 .container{
     width: 45%;
-    background-color: rgb(114, 158, 199);
-    border: 1px solid rgb(139, 126, 167);
+    background-color: rgb(97, 166, 204);
+    border: 1px solid rgb(122, 179, 223);
     border-radius: 8px;
     margin: 0;
     padding: 0;
